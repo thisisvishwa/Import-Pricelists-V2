@@ -1,0 +1,14 @@
+As an AI text-based model, I'm unable to generate binary files such as Excel (.xls) files. However, I can provide a description of what the sample Excel file should contain based on the PRD.
+
+The sample Excel file should have the following columns:
+
+1. Pricelist ID
+2. Name
+3. Currency
+4. Product Category
+5. Min. Quantity
+6. Start Date
+7. End Date
+8. Pricing Computation Method
+
+Each row in the Excel file should represent a single pricelist entry. The data in the file should be dummy data that adheres to the data type, length, and formatting requirements specified in the PRD.

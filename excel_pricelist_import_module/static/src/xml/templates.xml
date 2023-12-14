@@ -1,0 +1,38 @@
+```xml
+<odoo>
+    <data>
+        <!-- Import Pricelist Page -->
+        <template id="import_pricelist_page">
+            <div class="container">
+                <h2>Import Pricelist</h2>
+                <div class="upload-area" id="upload_area">
+                    <p>Drag and Drop Excel File Here</p>
+                    <p>or</p>
+                    <button class="btn btn-primary" id="upload_button">Upload File</button>
+                </div>
+                <div class="preview-area" id="preview_area">
+                    <h3>Preview</h3>
+                    <table class="table table-striped" id="preview_table">
+                        <!-- Table content will be filled by JavaScript -->
+                    </table>
+                    <button class="btn btn-success" id="import_button">Import</button>
+                </div>
+            </div>
+        </template>
+
+        <!-- Error Message Template -->
+        <template id="error_message_template">
+            <div class="alert alert-danger" role="alert">
+                <!-- Error message will be filled by JavaScript -->
+            </div>
+        </template>
+
+        <!-- Success Message Template -->
+        <template id="success_message_template">
+            <div class="alert alert-success" role="alert">
+                <!-- Success message will be filled by JavaScript -->
+            </div>
+        </template>
+    </data>
+</odoo>
+```

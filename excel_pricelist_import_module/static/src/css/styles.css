@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.file-upload {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.file-upload input[type="file"] {
+    display: none;
+}
+
+.file-upload label {
+    padding: 10px;
+    color: white;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.file-upload label:hover {
+    background-color: #45a049;
+}
+
+.data-preview {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+.import-button {
+    padding: 10px;
+    color: white;
+    background-color: #008CBA;
+    cursor: pointer;
+}
+
+.import-button:hover {
+    background-color: #007B9A;
+}
+
+.import-progress {
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
